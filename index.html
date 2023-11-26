@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="plc.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+	<title>Product Landing Page </title>
+	<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<style>
+  
+    .contactform {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 100%x;
+      text-align: center;
+	  margin-top: 170px;
+    padding: 20px;
+    }
+
+    .contact h1 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .contact p {
+      color: #555;
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+
+    .contact p:last-child {
+      margin-bottom: 0;
+    }
+  </style>
+
+</head>
+<body>
+	<div class="model active">
+		
+			<button class="cancel">X</button>
+			<div class="mb-3 w-100">
+			  <label for="exampleInputEmail1" class="form-label">Name</label>
+			  <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+			</div>
+			<div class="mb-3">
+			  <label for="exampleInputPassword1" class="form-label">Email</label>
+			  <input type="email" class="form-control" id="exampleInputPassword1">
+			</div>
+			
+			<button type="submit" class="btn btn-success" onclick="notify()">Submit</button>
+		  
+	</div>
+   <header>
+   	<div class="logo">
+   		<!-- <img class="one" src="./image/wl.png" alt="Watch Logo">
+   		Watches -->
+   	</div>
+   	<ul class="menu-list">
+   		<li>Home</li>
+   		<li class="active">Products </li>
+   		<li>About Us</li>
+   		<li>Contacts</li>
+		<li class="nameli"></li>
+   	</ul>
+   </header>
+   <section class="main">
+   	<section class="left">
+   		<p class="title">Are you ready to<strong> GLOW YOURSELF IN THE WORLD</strong>
+   		</p>
+   		<p class="msg">Cosmetics include beauty preparations (make-up, perfume, skin cream, nail polish) and grooming aids (soap, shampoo, shaving cream, deodorant).</p>
+   		<button class="cta"> <span>LOGIN </span> <i class="fas fa-angle-right"></i></button>
+   	</section>
+   	<section class="right">
+   		<img class="two" src="./image/w1.png" >
+   		<div class="colors">
+   			<div class="item silver active">
+   				<div class="color-selector">
+   					
+   					<img class="three" src="./image/w1s.png">
+   					<div class="additional-info">
+   						<p>PRICE</p>
+   						<p>$525</p>
+   					</div>
+   				</div>
+   			</div>
+   				<div class="item black active">
+   				<div class="color-selector">
+   					<img class="three" src="./image/w2.png">
+					   <div class="additional-info">
+						<p>PRICE</p>
+						<p>$525</p>
+					</div>
+   				</div>
+   		     	</div>
+   				<div class="item star active">
+   				<div class="color-selector">
+   					<img class="three" src="./image/w3.png">
+					   <div class="additional-info">
+						<p>PRICE</p>
+						<p>$525</p>
+					</div>
+   				</div>
+
+   			    </div>
+   		</div>
+
+		   <div class="contactform">
+			<div class="contact">
+			  <h1>This my contact form</h1>
+			  <p>This is Amit kumar .This Website tells us about  beauty product!</p>
+			  <p>my mobile number : 7051899766</p>
+			  <p>my email contact : amit98345@gmail.com</p>
+			</div>
+		 </div>
+   	</section>
+   </section>
+  
+   <script src="index.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
